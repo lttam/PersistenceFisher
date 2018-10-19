@@ -16,6 +16,8 @@ function dd = compute_dFIM_distance(p1, p2, delta)
 % Kernel for Persistence Diagrams, Neural Information Processing Systems 
 % (NIPS), Canada, 2018.
 %
+% % ArXiv link: https://arxiv.org/abs/1802.03569
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % INPUT
@@ -26,12 +28,12 @@ function dd = compute_dFIM_distance(p1, p2, delta)
 % OUTPUT
 % dd: d_FIM in Algorithm 1
 
-% projection of p1 on delta (y=x)
+% projection of p1 on $\delta$--the diagonal line (y=x)
 p1d = p1;
 p1d(:, 1) = sum(p1, 2)/2;
 p1d(:, 2) = sum(p1, 2)/2;
 
-% projection of p2 on delta (y=x)
+% projection of p2 on $\delta$--the diagonal line (y=x)
 p2d = p2;
 p2d(:, 1) = sum(p2, 2)/2;
 p2d(:, 2) = sum(p2, 2)/2;
@@ -49,7 +51,7 @@ ww = ww / sum(ww);
 wu = ww;
 wv = ww;
 
-% all points (Theta set in Algorithm 1)
+% all points (set $\Theta$ in Algorithm 1)
 pp = [pu ; pv];
 
 % For pdu
