@@ -34,6 +34,7 @@ RELEVANT PAPER:
 Tam Le, Makoto Yamada, Persistence Fisher Kernel: A Riemannian Manifold Kernel
 for Persistence Diagrams, Neural Information Processing Systems (NIPS), Canada, 2018.
 
+ArXiv link: https://arxiv.org/abs/1802.03569
 
 ----------------------------------
 * CONTACT
