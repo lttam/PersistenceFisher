@@ -23,9 +23,7 @@ between them, with or without Fast Gauss Transform.
 approximated by Fast Gauss Transform --- Linear complexity
 <Algorithm 1 in the NIPS'18 paper>
 + Third party toolbox (figtree-0.9.3): Fast Gauss Transform library
-(Link: http://www.umiacs.umd.edu/~morariu/figtree/ 
-or  
-http://sourceforge.net/projects/figtree)
+(Link: http://www.umiacs.umd.edu/~morariu/figtree/  or  http://sourceforge.net/projects/figtree)
 
 
 ----------------------------------
