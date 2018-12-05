@@ -10,7 +10,7 @@ NOTES:
 * DEMO:
 ----------------------------------
 + test_dFIM: randomly generate two persistence diagrams, and compute the Fisher information metric
-between them, with and without Fast Gauss Transform.
+between them, with or without Fast Gauss Transform.
 
 
 ----------------------------------
